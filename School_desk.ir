@@ -1,0 +1,134 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Irbis_power.off
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 18 00 00 00
+# 
+name: Irbis_right
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 15 00 00 00
+# 
+name: Irbis_left
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 47 00 00 00
+# 
+name: Irbis_ok
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 55 00 00 00
+# 
+name: Irbis_vol++
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 14 00 00 00
+# 
+name: Irbis_vol--
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 10 00 00 00
+# 
+name: Irbis_hide.screan
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 04 00 00 00
+# 
+name: {Irbis_freeze
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 12 00 00 00
+# 
+name: {Irbis_change.screan
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0D 00 00 00
+# 
+name: by physix22
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 174 2511 76 5985 318
+# 
+name: Mos_power.off
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: D7 00 00 00
+# 
+name: Mos_up
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 92 00 00 00
+# 
+name: Mos_left_presentation
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 97 00 00 00
+# 
+name: Mos_right_presentation
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 9F 00 00 00
+# 
+name: Mos_down
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: D8 00 00 00
+# 
+name: Mos_ok
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 9B 00 00 00
+# 
+name: Mos_vol++
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 83 00 00 00
+# 
+name: Mos_vol--
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 86 00 00 00
+# 
+name: Mos_mute
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9003 4353 647 461 648 463 646 462 648 1572 646 463 647 463 646 462 647 460 649 1572 647 1571 647 1571 648 462 647 1572 647 1571 648 1572 647 1572 647 462 647 1570 648 1572 647 1570 648 460 649 1573 645 463 646 1571 648 1571 647 461 649 461 648 462 647 1571 648 463 646 1572 647 461 648 40021 8952 2186 648
+# 
+name: {Mos_settings
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: B4 00 00 00
+# 
+name: {Mos_android
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: AD 00 00 00
+# 
+name: {Mos_menu
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: D4 00 00 00
